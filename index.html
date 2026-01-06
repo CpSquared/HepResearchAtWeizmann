@@ -11,8 +11,8 @@
   --bg2: #e9eef6;          /* subtle gradient */
   --card: #ffffff;        /* seminar card background */
   --card-border: #d6deea; /* soft border */
-  --text: #1f2937;        /* main text (dark gray, not black) */
-  --muted: #4b5563;       /* secondary text */
+  --text: #1f2937;        /* main text (dark gray, not black) og: #1f2937 */  
+  --muted: #312f2f;       /* secondary text og: #4b5563  */
   --accent: #2563eb;      /* academic blue */
 }
 
@@ -61,6 +61,7 @@
       -webkit-backdrop-filter: blur(10px);
       padding: 22px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+      margin-bottom: 24px;
     }
 
     h2{
@@ -79,9 +80,12 @@
     .seminar{
       padding: 14px 14px;
       border-radius: 14px;
-      border: 1px solid rgba(255,255,255,0.12);
+      border: 2px solid rgba(0, 0, 0, 1);
       background: rgba(0,0,0,0.12);
+      margin-bottom: 18px;
     }
+
+    
 
 
     .seminar-title{
@@ -92,6 +96,13 @@
     .meta{
       margin: 0 0 8px 0;;
       color: var(--muted);
+      font-size: 14px;
+    }
+
+    .meta-bold{
+      margin: 0 0 8px 0;;
+      color: var(--muted);
+      font-weight: 650;
       font-size: 14px;
     }
 
@@ -136,7 +147,7 @@
         <!-- SEMINAR ITEM (copy/paste this block to add more) -->
         <div class="seminar">
           <p class="seminar-title">
-            <span class="tag">Seminar</span>
+            <span class="tag">Falafel Seminar</span>
             Dark Matter Recoherence
           </p>
           <p class="meta">
@@ -151,7 +162,7 @@
           <p class="meta">
             Refreshments served at: 12:30, Israel time.
           </p>
-          <p class="meta">
+          <p class="meta-bold">
             Date:  7 January, Wednesday. 
           </p>
           <p class="meta">
@@ -183,7 +194,7 @@
           <p class="meta">
             Refreshments served at: 12:30, Israel time.
           </p>
-          <p class="meta">
+          <p class="meta-bold">
             Date:  7 January, Wednesday. 
           </p>
           <p class="meta">
@@ -215,7 +226,7 @@
           <p class="meta">
             Refreshments served at: 12:30, Israel time.
           </p>
-          <p class="meta">
+          <p class="meta-bold">
             Date:  7 January, Wednesday. 
           </p>
           <p class="meta">
@@ -229,6 +240,48 @@
             that accumulate data over extended observation periods. Based on the work, <a href="https://arxiv.org/pdf/2601.00955">arXiv:2601.00955.</a>
           </p>
         </div>
+      </div>
+
+    </main>
+
+    <main class="card">
+      <h2>General Group Updates</h2>
+
+      <div class="seminars">
+        <!-- SEMINAR ITEM (copy/paste this block to add more) -->
+        <div class="seminar">
+          <p class="seminar-title">
+            <span class="tag">Visitor</span>
+            Dr. Andrea Caputo
+          </p>
+          <p class="meta">
+            Affiliation: CERN and U. Rome La Sapienza (main)
+          </p>
+          <p class="meta-bold">
+            Visiting from: December 2025, To:  TBA. 
+          </p>
+          <p class="meta">
+            Inspire: <a href="https://inspirehep.net/authors/1498218">Andrea Caputo.</a>
+          </p>
+        </div>
+
+        
+      </div>
+
+    </main>
+
+    <main class="card">
+      <h2>Contact</h2>
+
+      <div class="seminars">
+        <!-- SEMINAR ITEM (copy/paste this block to add more) -->
+        <div class="seminar">
+          <p class="meta">
+            Please write to : chaitanya.paranjape@weizmann.ac.il , to include notifications on this webpage.
+          </p>
+        </div>
+
+        
       </div>
 
     </main>
